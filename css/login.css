@@ -1,0 +1,274 @@
+a{
+	color: #000;
+}
+/* 顶部 */
+.backgro {
+	height: 120px;
+	background: #fff;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.backgro .header{
+	position: relative;
+}
+.backgro .header .logo{
+	float: left;
+	width: 207px;
+	height: 70px;
+}
+.backgro .header .logo h1{
+	width: 287px;
+	height: 70px;
+}
+.backgro .header .logo a{
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	display: block;
+	width: 201px; 
+	height: 70px; 
+}
+.backgro .header p{
+	float: right;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+.backgro .header span {
+	width: 30px;
+	height: 30px;
+	display: list-item;
+	list-style: none;
+	float: right;
+	margin-top: -5px;
+	background: url('../img/go_icon.png');
+}
+.backgro .header .goSign{
+	position: absolute;
+	text-shadow: 4px 4px 10px #000;
+	right: -50px;
+	display: none;
+	padding: 5px 10px;
+}
+/* 顶部 */
+/* 主要 */
+.main {
+	width: 100%;
+	height: 500px;
+	background: url('../uploads/登录背景.png') no-repeat;
+	background-size: cover;
+	background-position: -300px 0px;
+	perspective: 200px;
+	overflow: hidden;
+}
+.main>.ani{
+	position: relative;
+	transform-style: preserve-3d;
+	z-index: 1;
+}
+.main>.ani_ball{
+	z-index: 2;
+}
+.main>.ani_shadow{
+	opacity: 0;
+}
+.main #ani_ball1{
+	animation: ball1 2s linear forwards;
+}
+.main #ani_ball2{
+	transform: translate(-2000px);
+	animation: ball2 1s ease-in-out forwards 1.5s;
+}
+.main #ani_shadow1{
+	transform: translate(-60px,320px);
+	animation: fade 2s ease-in-out forwards 2s;
+}
+.main #ani_shadow2{
+	transform: translate(-48px,320px);
+	animation: fade 3s ease-in-out forwards 2.5s;
+}
+@keyframes fade{
+	from{
+		opacity: 0;
+	}to{
+		opacity: 1;
+	}
+}
+@keyframes ball2{
+	0%{
+		transform: translate3d(-900px, -300px, -900px);
+	}
+	100%{
+		transform: translate3d(240px, 310px, 0);
+	}
+}
+@keyframes ball1{
+	0%{
+		transform: translate3d(1500px, -200px, 200px) rotate(720deg);
+	}
+	30%{
+		transform: translate3d(1200px, -50px, 20px) rotate(360deg);
+	}
+	50%{
+		transform: translate3d(990px, -80px, 0px) rotate(200deg);
+	}
+	70%{
+		transform: translate3d(700px, 200px, 50px) rotate(100deg);
+	}
+	90%{
+		transform: translate3d(100px, 310px, 0px) rotate(-180deg);
+	}
+	100%{
+		transform: translate3d(200px, 310px, 0px) rotate(0deg);
+	}
+}
+.window {
+    width: 400px;
+    height: 380px;
+    background: #fff;
+    position: absolute;
+    top: 200px;
+    left: 75%;
+    margin: -150px 0 0 -200px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+}
+.window-header {
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.window p {
+    width: 100px;
+    height: 14px;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #27ba9b;
+}
+
+.window-header h3 {
+    width: 50%;
+    margin: 15px auto 0;
+    font-size: 20px;
+    font-weight: 400;
+    float: left;
+}
+
+.window-header h3:hover {
+    border-bottom: 1px solid #27ba9b;
+}
+.window-body {
+    width: 100%;
+    height: 315px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    opacity: 1;
+}
+.window-body form .table .icon {
+    width: 25px;
+    height: 25px;
+    display: list-item;
+    list-style: none;
+    position: relative;
+}
+
+.window-body form .table .icon img {
+    width: 25px;
+    height: 25px;
+    margin-top: 37px;
+    margin-left: 25px;
+    position: absolute;
+}
+.window-body .icon-input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #e4e4e4;
+    padding-left: 40px;
+    font-size: 100%;
+    opacity: 0.5;
+}
+
+.window-body img {
+    width: 25px;
+    height: 25px;
+    margin-top: 35px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+#icon-img1 {
+    margin-top: 45px;
+}
+
+.window-body div:nth-child(3) {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.window-body div:nth-child(3) span {
+    color: #27ba9b;
+}
+
+.window-body div:nth-child(3) input {
+    margin-right: 5px;
+}
+
+.window-body div:nth-child(4) input[type='submit'] {
+    padding: 0;
+    opacity: 1;
+    border-radius: 5px;
+	cursor: pointer;
+}
+
+.window-body div:nth-child(4) input:hover {
+    background: #27ba9b;
+    color: #fff;
+}
+.service {
+    float: left;
+    margin-left: 55px;
+    font-size: 14px;
+}
+
+.service:last-child {
+    float: right;
+    margin-right: 55px;
+}
+
+.service:hover {
+    color: #27ba9b;
+}
+
+.window .LD {
+    width: 100%;
+    height: 315px;
+    position: absolute;
+    top: 65px;
+    text-align: center;
+    background: #fff;
+    display: none;
+}
+
+.window .LD img {
+    width: 200px;
+    height: 200px;
+    margin: 25px auto 0px;
+}
+
+.window .LD span {
+    width: 400px;
+    height: 50px;
+    display: block;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+

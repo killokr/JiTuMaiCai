@@ -1,0 +1,79 @@
+{
+  "id": "4765642",
+  "name": "罗-前端三期末",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1069748",
+      "name": "返回顶部",
+      "font_class": "fanhuidingbu",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "425662",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "5460560",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "ec2e",
+      "unicode_decimal": 60462
+    },
+    {
+      "icon_id": "6966961",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "11372728",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e8bf",
+      "unicode_decimal": 59583
+    },
+    {
+      "icon_id": "15035203",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "42230774",
+      "name": "heart-fill",
+      "font_class": "heart-fill",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "5334168",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "690703",
+      "name": "导航-购物车",
+      "font_class": "daohanggouwuche",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "12175536",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    }
+  ]
+}
